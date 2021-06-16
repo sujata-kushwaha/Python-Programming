@@ -10,7 +10,7 @@ def time():
     label.config(text = timefrmt)
     label.after(1000,time)
 
-label = Label(master, font = ("Times New Roman", 38, 'bold'),
+label = Label(master, font = ("ds-digital", 38, 'bold'),
     background = "brown", foreground = "white")
 button = Button(master, text = "Close Clock", width = 50,
     command = master.destroy)
